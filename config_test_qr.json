@@ -1,0 +1,26 @@
+{
+  "ALGORITHM": "qr_dqn",
+  "GRID_SIZE": 40,
+  "VIEW_SIZE": 5,
+  "INPUT_CHANNELS": 6,
+
+  "NUM_EPISODES": 100,
+  "BATCH_SIZE": 32,
+  "GAMMA": 0.99,
+  "LEARNING_RATE": 0.001,
+  "MEMORY_SIZE": 1000,
+  "MAX_STEPS_PER_EPISODE": 200,
+  "NUM_ENVS": 10,
+  "TARGET_UPDATE_FREQ": 1,
+
+  "N_ATOMS": 16,
+  "TAU_EMBED_DIM": 128,
+
+  "EPSILON_START": 1.0,
+  "EPSILON_MIN": 0.1,
+  "EPSILON_DECAY": 0.9,
+
+  "AGENT_SPECS": [[20, 1], [20, 2], [20, 3]],
+  "METRICS_CSV": "metrics_qr_test.csv",
+  "VIDEO_PATH": "video_qr_test.mp4"
+}

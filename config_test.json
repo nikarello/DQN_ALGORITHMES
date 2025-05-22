@@ -1,0 +1,20 @@
+{
+  "ALGORITHM": "DuelingDDQN",
+  "GRID_SIZE": 20,
+  "VIEW_SIZE": 5,
+  "INPUT_CHANNELS": 6,
+  "NUM_EPISODES": 2,
+  "BATCH_SIZE": 32,
+  "GAMMA": 0.99,
+  "LEARNING_RATE": 0.001,
+  "MEMORY_SIZE": 1000,
+  "EPSILON_START": 1.0,
+  "EPSILON_MIN": 0.1,
+  "EPSILON_DECAY": 0.9,
+  "MAX_STEPS_PER_EPISODE": 20,
+  "NUM_ENVS": 2,
+  "TARGET_UPDATE_FREQ": 1,
+  "AGENT_SPECS": [[2, 1], [2, 2], [2, 3]],
+  "METRICS_CSV": "metrics_test.csv",
+  "VIDEO_PATH": "video_test.mp4"
+}

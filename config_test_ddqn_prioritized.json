@@ -1,0 +1,30 @@
+{
+  "ALGORITHM": "DuelingDDQNPrioritized",
+
+  "GRID_SIZE": 20,
+  "VIEW_SIZE": 5,
+  "INPUT_CHANNELS": 6,
+  "AGENT_SPECS": [[2, 1], [2, 2], [2, 3]],
+
+  "NUM_EPISODES": 2,
+  "MAX_STEPS_PER_EPISODE": 20,
+  "NUM_ENVS": 2,
+
+  "BATCH_SIZE": 32,
+  "MEMORY_SIZE": 1000,
+  "LEARNING_RATE": 0.001,
+  "GAMMA": 0.99,
+
+  "EPSILON_START": 1.0,
+  "EPSILON_MIN": 0.1,
+  "EPSILON_DECAY": 0.9,
+
+  "TARGET_UPDATE_FREQ": 1,
+
+  "PER_ALPHA": 0.6,
+  "PER_BETA_START": 0.4,
+  "PER_BETA_FRAMES": 10000,
+
+  "METRICS_CSV": "metrics_test_prioritized.csv",
+  "VIDEO_PATH": "video_test_prioritized.mp4"
+}

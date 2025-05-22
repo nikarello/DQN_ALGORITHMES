@@ -1,0 +1,3 @@
+episode,reward,evacuated,died,avg_steps,avg_hp,epsilon,loss,duration
+1,-13116.0,1,12,1.0,100.0,1.0,,0.632314920425415
+2,-14016.0,2,12,13.5,87.5,1.0,,0.42279481887817383
